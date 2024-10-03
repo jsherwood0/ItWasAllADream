@@ -4,8 +4,8 @@ version = "0.0.2"
 description = ""
 authors = ["Marcello Salvati <byt3bl33d3r@pm.me>"]
 readme = "README.md"
-homepage = "https://github.com/byt3bl33d3r/ItWasAllADream"
-repository = "https://github.com/byt3bl33d3r/ItWasAllADream"
+homepage = "https://github.com/jsherwood0/ItWasAllADream"
+repository = "https://github.com/jsherwood0/ItWasAllADream"
 exclude = ["tests"]
 include = ["LICENSE"]
 license = ""
@@ -24,7 +24,7 @@ itwasalladream = 'itwasalladream.__main__:main'
 
 [tool.poetry.dependencies]
 python = "^3.8.0"
-impacket = {git = "https://github.com/fortra/impacket.git"}
+impacket = {git = "https://github.com/jsherwood0/impacket.git"}
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
