@@ -26,6 +26,11 @@ itwasalladream = 'itwasalladream.__main__:main'
 python = "^3.8.0"
 impacket = {git = "https://github.com/jsherwood0/impacket.git"}
 
+[[tool.poetry.source]]
+name = "impacket"
+url = "git+https://github.com/fortra/impacket.git"
+priority = "supplemental"
+
 [tool.poetry.dev-dependencies]
 pytest = "*"
 pytest-asyncio = "*"
