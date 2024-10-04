@@ -24,7 +24,7 @@ itwasalladream = 'itwasalladream.__main__:main'
 
 [tool.poetry.dependencies]
 python = "^3.8.0"
-impacket = {git = "https://github.com/jsherwood0/impacket.git"}
+impacket = {git = "https://github.com/jsherwood0/impacket.git", branch = "custom-local-dependencies"}
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
